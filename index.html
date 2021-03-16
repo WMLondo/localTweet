@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecto Tweet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="content">
+        <h1 class="main-title">Local Storage</h1>
+        <div class="content-tweet">
+            <div class="content-add">
+                <label class="add-label">Tweet:</label>
+                <textarea placeholder="Tu Tweet" maxlength="25" class="add-textarea" id="text-to-add"></textarea>
+                <p id="letterCounter" class="letter-Counter-p">0/25</p>
+                <button id="btnAgregarTweet" class="add-button">Agregar</button>
+            </div>
+            <div class="content-display">
+                <h2 class="display-h2">Mis Tweet</h2>
+                <ul id="display-content" class="displayContent">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="localstorage.js"></script>
+</body>
+</html>
